@@ -76,18 +76,5 @@ html [type="button"], [type="reset"], [type="submit"]:active {
 
 }
 
-@media screen and (max-width: 700px){
-  .login-wrapper {
-      height: 50%;
-      width: 50%;  
-  }
-}
-@media screen and (max-width: 800px){
-  .login-wrapper {
-    height: 70%;  
-    width: 70%;
-    }
-
-}
 
 
