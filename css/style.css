@@ -30,7 +30,7 @@ body {
   font-weight: bold;
   text-align: center;
   line-height: 200px;
-  color: black;
+  color: #0c8990;
   position: relative;
   top: 10%;
 }
@@ -50,6 +50,7 @@ body {
 .msg {
   text-align: center;
   line-height: 88px;
+  margin-bottom: -40px;
 }
 a {
   text-decoration-line: none;
@@ -82,13 +83,30 @@ html [type="button"], [type="reset"], [type="submit"]:active {
 @media screen and (max-width: 700px){
   .login-wrapper {
       height: 50%;
-      width: 50%;  
+      width: 158px;
+  }
+  .header{
+    font-size: 28px;
+    line-height: 100px;
+    top: 4%;
+  }
+  .msg {
+    line-height: 44px;
   }
 }
 @media screen and (max-width: 900px){
+  
   .login-wrapper {
     height: 70%;  
-    width: 70%;
+    width: 208px;
+    }
+    .header{
+      font-size: 28px;
+      line-height: 120px;
+      top: 6%;
+    }
+    .msg {
+      line-height: 60px;
     }
 
 }
