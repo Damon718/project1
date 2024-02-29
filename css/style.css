@@ -84,6 +84,7 @@ html [type="button"], [type="reset"], [type="submit"]:active {
   .login-wrapper {
       height: 50%;
       width: 158px;
+      left: 35%;
   }
   .header{
     font-size: 28px;
@@ -99,9 +100,10 @@ html [type="button"], [type="reset"], [type="submit"]:active {
   .login-wrapper {
     height: 70%;  
     width: 208px;
+    left: 35%;
     }
     .header{
-      font-size: 28px;
+      font-size: 18px;
       line-height: 120px;
       top: 6%;
     }
