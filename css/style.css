@@ -1,38 +1,42 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Lucky rainbow", "Little elite", serif;
+
 }
 html {
   height: 100%;
+  width: 90%;
 }
 body {
   height: 100%;
-  background-image:url(/project1/img/bg.jpg);
+  background-image:url(/img/bg.jpg);
   background-repeat:no-repeat;
   background-size:cover;
 }
 .container {
   height: 100%;
-  /* background-image: linear-gradient(to right, #999999, #ffff); */
+  padding-left: 29%;
 }
 .login-wrapper {
-  width: 358px;
-  height: 588px;
   border-radius: 15px;
   padding: 0 50px;
   position: relative;
-  left: 50%;
   top: 40%;
   transform: translate(-50%,-50%);
+  height: 70%;  
+  width: 208px;
+  left: 35%;
 }
 .header {
-  font-size: 38px;
   font-weight: bold;
   text-align: center;
-  line-height: 200px;
   color: #0c8990;
   position: relative;
-  top: 10%;
+  font-size: 18px;
+  line-height: 60px;
+  top: 6%;
+  width: 90%;
 }
 .input-item {
   display: block;
@@ -49,8 +53,7 @@ body {
 }
 .msg {
   text-align: center;
-  line-height: 88px;
-  margin-bottom: -40px;
+  line-height: 30px;
 }
 a {
   text-decoration-line: none;
@@ -80,36 +83,33 @@ html [type="button"], [type="reset"], [type="submit"]:active {
 
 }
 
-@media screen and (max-width: 700px){
-  .login-wrapper {
-      height: 50%;
-      width: 158px;
-      left: 35%;
+
+@media screen and (min-width: 900px){
+  
+  .header {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200px;
+    color: #0c8990;
+    position: relative;
+    top: 10%;
   }
-  .header{
-    font-size: 28px;
-    line-height: 100px;
-    top: 4%;
+  .login-wrapper {
+    width: 358px;
+    height: 588px;
+    border-radius: 15px;
+    padding: 0 50px;
+    position: relative;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
   }
   .msg {
-    line-height: 44px;
+    text-align: center;
+    line-height: 88px;
+    margin-bottom: -40px;
   }
-}
-@media screen and (max-width: 900px){
-  
-  .login-wrapper {
-    height: 70%;  
-    width: 208px;
-    left: 35%;
-    }
-    .header{
-      font-size: 18px;
-      line-height: 120px;
-      top: 6%;
-    }
-    .msg {
-      line-height: 60px;
-    }
 
 }
 
